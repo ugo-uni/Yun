@@ -1,9 +1,11 @@
 function textUpdate(){
     const textWrapBox = document.querySelector("div.text-list-wrap");
     const textBox = document.createElement("div");
-    const text = document.querySelector("input.input").value;
+    const inputTextBox = document.querySelector("input.input");
+    const text = inputTextBox.value;
 
     textBox.innerText = text;
     textWrapBox.appendChild(textBox);
-    text.value = '';
+
+    inputTextBox.value = "";
 }

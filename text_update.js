@@ -5,4 +5,5 @@ function textUpdate(){
 
     textBox.innerText = text;
     textWrapBox.appendChild(textBox);
+    text.value = '';
 }

@@ -8,7 +8,7 @@ function handleClick(){
     if (check == 0){
         msg.innerText = "윤아야 시험공부 화팅이야!!";
         const img = document.createElement("img");
-        img.src = "C:/workplace/project/Yun/cha.png";
+        img.src = "cha.png";
         img.style.width = "400px";
         img.style.height = "460px";
         container.appendChild(img);
